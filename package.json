@@ -1,0 +1,22 @@
+{
+  "name": "provideoeditor",
+  "version": "1.0.0",
+  "description": "Application de montage vidéo professionnelle",
+  "type": "module",
+  "scripts": {
+    "dev:electron": "pnpm --filter electron-app dev",
+    "dev:web": "pnpm --filter web-app dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "type-check": "pnpm -r type-check",
+    "package": "pnpm --filter electron-app package"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0",
+    "electron": "^27.0.0",
+    "concurrently": "^8.2.0"
+  },
+  "packageManager": "pnpm@8.0.0"
+}
