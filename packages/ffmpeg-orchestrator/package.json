@@ -1,0 +1,21 @@
+{
+  "name": "@provideoeditor/ffmpeg-orchestrator",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "@ffprobe-installer/ffprobe": "^1.0.0",
+    "@provideoeditor/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/fluent-ffmpeg": "^2.1.0"
+  }
+}
